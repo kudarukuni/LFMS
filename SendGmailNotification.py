@@ -2,13 +2,13 @@ import time
 import serial
 import smtplib
 
-TO = 'sdtsdata123@gmail.com'
-GMAIL_USER = 'sdtsdata123@gmail.com'
-GMAIL_PASS = 'grscgdwqritqgkqu'
-SUBJECT = 'Smart Drip-Tech System Alert'
-TEXT1 = 'Low Water Level Alert !! To see more details go to http://www.sdts.com'
+TO = 'lfmsdata123@gmail.com'
+GMAIL_USER = 'lfmsdata123@gmail.com'
+GMAIL_PASS = 'xjzxmygnijparpnf'
+SUBJECT = 'Logistics Fuel Monitoring System Alert'
+TEXT1 = 'Low Fuel Level Alert !! To see more details go to http://www.lfms.com'
   
-ser = serial.Serial('COM5', 115200)
+ser = serial.Serial('COM4', 115200)
 
 def send_email():
     print("Sending Email")
